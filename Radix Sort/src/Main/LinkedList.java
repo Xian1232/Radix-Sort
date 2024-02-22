@@ -73,7 +73,7 @@ public class LinkedList {
 			File fileData = new File("areacode.txt");
 			Scanner kb = new Scanner(fileData);
 
-			LinkedList Bucket0 = new LinkedList();  //Sorry
+			LinkedList Bucket0 = new LinkedList();  
 			LinkedList Bucket1 = new LinkedList();              
 			LinkedList Bucket2 = new LinkedList();      
 			LinkedList Bucket3 = new LinkedList(); 
@@ -204,25 +204,6 @@ public class LinkedList {
 	    fixIndex.value = split[1];
 		return fixIndex;
    	}
-   	
-  /* public static void listTest10() {                      //test 10
-    	var in = new LinkedList();
-    	System.out.println("Starting test...");
-    	in.addHead("final");
-    	in.removeHead();
-    	in.addTail("Tail");
-    	in.addHead("Head");
-    	in.addHead("Head2");
-    	in.addHead("Head3");
-    	in.addTail("Tail2");
-    	in.print();
-    	System.out.println("\nEnding test...\n");
-    	System.out.println("--------------------------------\n");
-    } */
-    
-   /* public static void about() {                         //An about section describing me
-        System.out.println("Hi my name is Christian Young. I am a junior as a CS major that switched from CPE.\n");
-    } */
 
     void addHead(Entry value) {
         Node add = new Node(value);
