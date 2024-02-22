@@ -1,0 +1,243 @@
+//you make a linked list where you spam add tails to it,
+//the tails being the data in the txt file. After that,
+//you make 10 different Arrays that will hold the radix
+ //data from the linked list. Then physically code the 
+  //sorting algorithm so it sorts the first digit, then
+   //the next digit, and print out the data using removeHead.
+    //You add with addTail only, and print with removeHead.
+    
+    
+LinkedList buckets[] = new LinkedList[10];
+    	File fileData = new File("years.txt");
+    	
+    	for (int i=0; i<10; i++) {
+    		buckets[i] = new LinkedList();
+    	}
+    	
+ 	int digits = 0;
+    		String length = kb.nextLine();
+    		for (int i = 0; i < length.length(); i++) {
+    			if (Character.isDigit(length.charAt(i))) {
+    				digits++;
+    			}
+    		}
+    		System.out.println(digits);
+    	
+    			 for (int i = 0; i < 10; i++) {
+    				 LinkedList[] buckets = new LinkedList[arrayBuckets];
+    			 }
+    						
+    						
+    				switch(MSD) {  //pull MSD and replace "digits" in switch cases with MSD
+    	case 1:
+    		if (MSD == 0) {
+    			Buckets[0] = kb.nextLine(); 
+    		}
+    		break;
+    	case 2:
+    		for (int i = 0; i < 2; i++) {
+    			int j = 0;
+    			String[] bucket = new String[j];
+    			j++;
+    		}
+    		break;
+    	case 3:
+    		for (int i = 0; i < 3; i++) {
+    			int j = 0;
+    			String[] bucket = new String[j];
+    			j++;
+    		}
+    		break;
+    	case 4:
+    		for (int i = 0; i < 4; i++) {
+    			int j = 0;
+    			String[] bucket = new String[j];
+    			j++;
+    		}
+    		break;
+    	case 5:
+    		for (int i = 0; i < 5; i++) {
+    			int j = 0;
+    			String[] bucket = new String[j];
+    			j++;
+    		}
+    		break;
+    	case 6:
+    		for (int i = 0; i < 6; i++) {
+    			int j = 0;
+    			String[] bucket = new String[j];
+    			j++;
+    		}
+    		break;
+    	case 7:
+    		for (int i = 0; i < 7; i++) {
+    			int j = 0;
+    			String[] bucket = new String[j];
+    			j++;
+    		}
+    		break;
+    	case 8:
+    		for (int i = 0; i < 8; i++) {
+    			int j = 0;
+    			String[] bucket = new String[j];
+    			j++;
+    		}
+    		break;
+    	case 9:
+    		for (int i = 0; i < 9; i++) {
+    			int j = 0;
+    			String[] bucket = new String[j];
+    			j++;
+    		}
+    		break;
+    	case 10:
+    		for (int i = 0; i < 10; i++) {
+    			int j = 0;
+    			String[] bucket = new String[j];
+    			j++;
+    		}
+    		break;
+    	}
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	try {                                           
+    		Scanner kb = new Scanner(fileData);        
+
+    	 	int digits = 0;
+    		String length = kb.nextLine();
+    		for (int i = 0; i < length.length(); i++) {
+    			if (Character.isDigit(length.charAt(i))) {
+    				digits++;
+    			}
+    		}
+    		System.out.println(digits);
+    		
+    		int MSD = 0; 
+    		String greatest = kb.nextLine();
+    		for (int i = 0; i < greatest.length(); i++) {
+    			if (Character.isDigit(greatest.charAt(i))) {
+    				
+    			}
+    		}
+    		
+    		for (int i = 0; i < digits; i++) {
+    			int k = 0;
+    			String[] Buckets = new String[k];
+    			k++;
+    		}
+    	                                           
+    	/* for (int i = 0; i < digits; i++) {
+    	 * 
+    	 * 
+    	 * while (kb.hasNextLine()) {    //need help
+    		//System.out.println(kb.nextLine());
+    		linkedList.addTail(kb.nextLine());  //need help
+    		
+    	
+    	    	switch(MSD) {  //pull MSD and replace "digits" in switch cases with MSD
+    	    	case 1:
+    	    		if (MSD == 0) {
+    	    			Buckets[0] = kb.nextLine(); 
+    	    		}
+    	    		break;
+    	    	case 2:
+    	    		if (MSD == 1) {
+    	    			Buckets[1] = kb.nextLine(); 
+    	    		}
+    	    		break;
+    	    	case 3:
+    	    		if (MSD == 2) {
+    	    			Buckets[2] = kb.nextLine(); 
+    	    		}
+    	    		break;
+    	    	case 4:
+    	    		if (MSD == 3) {
+    	    			Buckets[3] = kb.nextLine(); 
+    	    		}
+    	    		break;
+    	    	case 5:
+    	    		if (MSD == 4) {
+    	    			Buckets[4] = kb.nextLine(); 
+    	    		}
+    	    		break;
+    	    	case 6:
+    	    		if (MSD == 5) {
+    	    			Buckets[5] = kb.nextLine(); 
+    	    		}
+    	    		break;
+    	    	case 7:
+    	    		if (MSD == 6) {
+    	    			Buckets[6] = kb.nextLine(); 
+    	    		}
+    	    		break;
+    	    	case 8:
+    	    		if (MSD == 7) {
+    	    			Buckets[7] = kb.nextLine(); 
+    	    		}
+    	    		break;
+    	    	case 9:
+    	    		if (MSD == 8) {
+    	    			Buckets[8] = kb.nextLine(); 
+    	    		}
+    	    		break;
+    	    	case 10:
+    	    		if (MSD == 9) {
+    	    			Buckets[9] = kb.nextLine(); 
+    	    		}
+    	    		break;
+    	    	}
+    	    	default: 
+    	    		linkedList.addTail(kb.nextLine());  //need help
+    	    		//move to next MSD
+    	    		break;
+    		
+    	     }
+    	  
+    	  }
+    	   */
+    	
+    	System.out.println(linkedList.removeHead());
+    	
+    	}
+    	catch (FileNotFoundException e) {
+    		System.out.println("FNF Exception, fix it!");
+    		e.printStackTrace();
+    	}
+    	
+    				
+			/* int n = 0;
+			String[] Buckets = new String[n];
+			for (int i = 0; i < n; i++) {
+				Buckets[i] = new String();
+			} */
+			
+			/* for (int i = 0; i < 10; i++) {
+				LinkedList buckets = new LinkedList();
+			} */
+			
+					int digits = 0;
+    		String length = kb.nextLine();
+    		for (int i = 0; i < length.length(); i++) {
+    			if (Character.isDigit(length.charAt(i))) {
+    				digits++;
+    			}
+    		}
+    		System.out.println(digits);
+    		
+    						//Main.addTail(kb.nextLine());
+
+				/* String textLine = kb.nextLine();
+				Scanner scanLine = new Scanner(textLine);
+				scanLine.useDelimiter(",");
+				String partOfLine = scanLine.next(); */
+				
+				//System.out.println(partOfLine + ", ");
